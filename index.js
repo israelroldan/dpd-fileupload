@@ -91,7 +91,7 @@ function Fileupload(name, options) {
 
 util.inherits(Fileupload, Collection);
 
-Fileupload.events = ["Get", "Post", "Delete"];
+Fileupload.events = ["Get", "Post", "Delete", "BeforeRequest", "AfterCommit"];
 Fileupload.dashboard = Collection.dashboard;
 
 /**
